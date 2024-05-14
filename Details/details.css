@@ -1,0 +1,40 @@
+body{
+    height: 100vh;
+}
+.mainContainer{
+    width: 100%;
+}
+#imgDetails{
+    width: 80%;
+    height: 100%;
+    border-radius: 21px 21px 0 0;
+}
+.spinner {
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border-left-color: rgb(0, 153, 255);
+    animation: spin 1s ease infinite;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .message-box {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+    background: rgb(9, 225, 9);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    font-weight: bold;
+  }
